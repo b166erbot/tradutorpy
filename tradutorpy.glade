@@ -1,0 +1,1127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.22.1 -->
+<interface>
+  <requires lib="gtk+" version="3.20"/>
+  <object class="GtkTextBuffer" id="buffer"/>
+  <object class="GtkTextBuffer" id="buffer2"/>
+  <object class="GtkListStore" id="listprimary">
+    <columns>
+      <!-- column-name nome -->
+      <column type="gchararray"/>
+      <!-- column-name abreviação -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Albanês</col>
+        <col id="1" translatable="yes">sq</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Africâner</col>
+        <col id="1" translatable="yes">af</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Alemão</col>
+        <col id="1" translatable="yes">de</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Amárico</col>
+        <col id="1" translatable="yes">am</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Árabe</col>
+        <col id="1" translatable="yes">ar</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Armênio</col>
+        <col id="1" translatable="yes">hy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Azerbaijano</col>
+        <col id="1" translatable="yes">az</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Basco</col>
+        <col id="1" translatable="yes">eu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bengali</col>
+        <col id="1" translatable="yes">bn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bielo-russo</col>
+        <col id="1" translatable="yes">be</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Birmanês</col>
+        <col id="1" translatable="yes">my</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bósnio</col>
+        <col id="1" translatable="yes">bs</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Búlgaro</col>
+        <col id="1" translatable="yes">bg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Canarês</col>
+        <col id="1" translatable="yes">kn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Catalão</col>
+        <col id="1" translatable="yes">ca</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cazaque</col>
+        <col id="1" translatable="yes">kk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cebuano</col>
+        <col id="1" translatable="yes">ceb</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chicheua</col>
+        <col id="1" translatable="yes">ny</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chinês</col>
+        <col id="1" translatable="yes">zh-CN</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chona</col>
+        <col id="1" translatable="yes">sn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cingalês</col>
+        <col id="1" translatable="yes">si</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Coreano</col>
+        <col id="1" translatable="yes">ko</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Corso</col>
+        <col id="1" translatable="yes">co</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Crioulo</col>
+        <col id="1" translatable="yes">ht</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Croata</col>
+        <col id="1" translatable="yes">hr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Curdo</col>
+        <col id="1" translatable="yes">ku</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Dinamarquês</col>
+        <col id="1" translatable="yes">da</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Eslovaco</col>
+        <col id="1" translatable="yes">sk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Esloveno</col>
+        <col id="1" translatable="yes">sl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Espanhol</col>
+        <col id="1" translatable="yes">es</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Esperanto</col>
+        <col id="1" translatable="yes">eo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Estoniano</col>
+        <col id="1" translatable="yes">et</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Filipino</col>
+        <col id="1" translatable="yes">tl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Finlandês</col>
+        <col id="1" translatable="yes">fi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Francês</col>
+        <col id="1" translatable="yes">fr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Frísio</col>
+        <col id="1" translatable="yes">fy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Gaélico escocês</col>
+        <col id="1" translatable="yes">gd</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Galego</col>
+        <col id="1" translatable="yes">gl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Galês</col>
+        <col id="1" translatable="yes">cy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Georgiano</col>
+        <col id="1" translatable="yes">ka</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Grego</col>
+        <col id="1" translatable="yes">el</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Guzerate</col>
+        <col id="1" translatable="yes">gu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hauçá</col>
+        <col id="1" translatable="yes">ha</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Havaiano</col>
+        <col id="1" translatable="yes">haw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hebraico</col>
+        <col id="1" translatable="yes">iw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hindi</col>
+        <col id="1" translatable="yes">hi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hmong</col>
+        <col id="1" translatable="yes">hmn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Holandês</col>
+        <col id="1" translatable="yes">nl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Húngaro</col>
+        <col id="1" translatable="yes">hu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Lgbo</col>
+        <col id="1" translatable="yes">ig</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">lídiche</col>
+        <col id="1" translatable="yes">yi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Indonésio</col>
+        <col id="1" translatable="yes">id</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Inglês</col>
+        <col id="1" translatable="yes">en</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Loruba</col>
+        <col id="1" translatable="yes">yo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Irlandês</col>
+        <col id="1" translatable="yes">ga</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Islandês</col>
+        <col id="1" translatable="yes">is</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Italiano</col>
+        <col id="1" translatable="yes">it</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Japonês</col>
+        <col id="1" translatable="yes">ja</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Javanês</col>
+        <col id="1" translatable="yes">jw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Khmer</col>
+        <col id="1" translatable="yes">km</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Laosiano</col>
+        <col id="1" translatable="yes">lo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Latim</col>
+        <col id="1" translatable="yes">la</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Letão</col>
+        <col id="1" translatable="yes">lv</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Lituano</col>
+        <col id="1" translatable="yes">lt</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Luxemburguês</col>
+        <col id="1" translatable="yes">lb</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Macedônio</col>
+        <col id="1" translatable="yes">mk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malaiala</col>
+        <col id="1" translatable="yes">ml</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malaio</col>
+        <col id="1" translatable="yes">ms</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malgaxe</col>
+        <col id="1" translatable="yes">mg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Maltês</col>
+        <col id="1" translatable="yes">mt</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Maori</col>
+        <col id="1" translatable="yes">mi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Marata</col>
+        <col id="1" translatable="yes">mr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Mongol</col>
+        <col id="1" translatable="yes">mn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Nepalês</col>
+        <col id="1" translatable="yes">ne</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Norueguês</col>
+        <col id="1" translatable="yes">no</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Pachto</col>
+        <col id="1" translatable="yes">ps</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Persa</col>
+        <col id="1" translatable="yes">fa</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Polonês</col>
+        <col id="1" translatable="yes">pl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Português</col>
+        <col id="1" translatable="yes">pt-br</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Punjabi</col>
+        <col id="1" translatable="yes">pa</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Quirguiz</col>
+        <col id="1" translatable="yes">ky</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Romeno</col>
+        <col id="1" translatable="yes">ro</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Russo</col>
+        <col id="1" translatable="yes">ru</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Saomano</col>
+        <col id="1" translatable="yes">sm</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sérvio</col>
+        <col id="1" translatable="yes">sr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sessoto</col>
+        <col id="1" translatable="yes">st</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sindi</col>
+        <col id="1" translatable="yes">sd</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Somali</col>
+        <col id="1" translatable="yes">sw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Suaíle</col>
+        <col id="1" translatable="yes">sv</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sueco</col>
+        <col id="1" translatable="yes">su</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sundanês</col>
+        <col id="1" translatable="yes">tg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tadjique</col>
+        <col id="1" translatable="yes">th</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tâmil</col>
+        <col id="1" translatable="yes">ta</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tcheco</col>
+        <col id="1" translatable="yes">cs</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Telugo</col>
+        <col id="1" translatable="yes">te</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Turco</col>
+        <col id="1" translatable="yes">tr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Ucraniano</col>
+        <col id="1" translatable="yes">uk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Urdu</col>
+        <col id="1" translatable="yes">ur</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Uzbeque</col>
+        <col id="1" translatable="yes">uz</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Vietnamita</col>
+        <col id="1" translatable="yes">vi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Xhosa</col>
+        <col id="1" translatable="yes">xh</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Zulu</col>
+        <col id="1" translatable="yes">zu</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkListStore" id="listsecundary">
+    <columns>
+      <!-- column-name nome -->
+      <column type="gchararray"/>
+      <!-- column-name abreviação -->
+      <column type="gchararray"/>
+    </columns>
+    <data>
+      <row>
+        <col id="0" translatable="yes">Albanês</col>
+        <col id="1" translatable="yes">sq</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Africâner</col>
+        <col id="1" translatable="yes">af</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Alemão</col>
+        <col id="1" translatable="yes">de</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Amárico</col>
+        <col id="1" translatable="yes">am</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Árabe</col>
+        <col id="1" translatable="yes">ar</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Armênio</col>
+        <col id="1" translatable="yes">hy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Azerbaijano</col>
+        <col id="1" translatable="yes">az</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Basco</col>
+        <col id="1" translatable="yes">eu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bengali</col>
+        <col id="1" translatable="yes">bn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bielo-russo</col>
+        <col id="1" translatable="yes">be</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Birmanês</col>
+        <col id="1" translatable="yes">my</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Bósnio</col>
+        <col id="1" translatable="yes">bs</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Búlgaro</col>
+        <col id="1" translatable="yes">bg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Canarês</col>
+        <col id="1" translatable="yes">kn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Catalão</col>
+        <col id="1" translatable="yes">ca</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cazaque</col>
+        <col id="1" translatable="yes">kk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cebuano</col>
+        <col id="1" translatable="yes">ceb</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chicheua</col>
+        <col id="1" translatable="yes">ny</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chinês</col>
+        <col id="1" translatable="yes">zh-CN</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Chona</col>
+        <col id="1" translatable="yes">sn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Cingalês</col>
+        <col id="1" translatable="yes">si</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Coreano</col>
+        <col id="1" translatable="yes">ko</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Corso</col>
+        <col id="1" translatable="yes">co</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Crioulo</col>
+        <col id="1" translatable="yes">ht</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Croata</col>
+        <col id="1" translatable="yes">hr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Curdo</col>
+        <col id="1" translatable="yes">ku</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Dinamarquês</col>
+        <col id="1" translatable="yes">da</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Eslovaco</col>
+        <col id="1" translatable="yes">sk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Esloveno</col>
+        <col id="1" translatable="yes">sl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Espanhol</col>
+        <col id="1" translatable="yes">es</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Esperanto</col>
+        <col id="1" translatable="yes">eo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Estoniano</col>
+        <col id="1" translatable="yes">et</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Filipino</col>
+        <col id="1" translatable="yes">tl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Finlandês</col>
+        <col id="1" translatable="yes">fi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Francês</col>
+        <col id="1" translatable="yes">fr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Frísio</col>
+        <col id="1" translatable="yes">fy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Gaélico escocês</col>
+        <col id="1" translatable="yes">gd</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Galego</col>
+        <col id="1" translatable="yes">gl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Galês</col>
+        <col id="1" translatable="yes">cy</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Georgiano</col>
+        <col id="1" translatable="yes">ka</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Grego</col>
+        <col id="1" translatable="yes">el</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Guzerate</col>
+        <col id="1" translatable="yes">gu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hauçá</col>
+        <col id="1" translatable="yes">ha</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Havaiano</col>
+        <col id="1" translatable="yes">haw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hebraico</col>
+        <col id="1" translatable="yes">iw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hindi</col>
+        <col id="1" translatable="yes">hi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Hmong</col>
+        <col id="1" translatable="yes">hmn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Holandês</col>
+        <col id="1" translatable="yes">nl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Húngaro</col>
+        <col id="1" translatable="yes">hu</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Lgbo</col>
+        <col id="1" translatable="yes">ig</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">lídiche</col>
+        <col id="1" translatable="yes">yi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Indonésio</col>
+        <col id="1" translatable="yes">id</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Inglês</col>
+        <col id="1" translatable="yes">en</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Loruba</col>
+        <col id="1" translatable="yes">yo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Irlandês</col>
+        <col id="1" translatable="yes">ga</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Islandês</col>
+        <col id="1" translatable="yes">is</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Italiano</col>
+        <col id="1" translatable="yes">it</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Japonês</col>
+        <col id="1" translatable="yes">ja</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Javanês</col>
+        <col id="1" translatable="yes">jw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Khmer</col>
+        <col id="1" translatable="yes">km</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Laosiano</col>
+        <col id="1" translatable="yes">lo</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Latim</col>
+        <col id="1" translatable="yes">la</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Letão</col>
+        <col id="1" translatable="yes">lv</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Lituano</col>
+        <col id="1" translatable="yes">lt</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Luxemburguês</col>
+        <col id="1" translatable="yes">lb</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Macedônio</col>
+        <col id="1" translatable="yes">mk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malaiala</col>
+        <col id="1" translatable="yes">ml</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malaio</col>
+        <col id="1" translatable="yes">ms</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Malgaxe</col>
+        <col id="1" translatable="yes">mg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Maltês</col>
+        <col id="1" translatable="yes">mt</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Maori</col>
+        <col id="1" translatable="yes">mi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Marata</col>
+        <col id="1" translatable="yes">mr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Mongol</col>
+        <col id="1" translatable="yes">mn</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Nepalês</col>
+        <col id="1" translatable="yes">ne</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Norueguês</col>
+        <col id="1" translatable="yes">no</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Pachto</col>
+        <col id="1" translatable="yes">ps</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Persa</col>
+        <col id="1" translatable="yes">fa</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Polonês</col>
+        <col id="1" translatable="yes">pl</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Português</col>
+        <col id="1" translatable="yes">pt-br</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Punjabi</col>
+        <col id="1" translatable="yes">pa</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Quirguiz</col>
+        <col id="1" translatable="yes">ky</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Romeno</col>
+        <col id="1" translatable="yes">ro</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Russo</col>
+        <col id="1" translatable="yes">ru</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Saomano</col>
+        <col id="1" translatable="yes">sm</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sérvio</col>
+        <col id="1" translatable="yes">sr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sessoto</col>
+        <col id="1" translatable="yes">st</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sindi</col>
+        <col id="1" translatable="yes">sd</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Somali</col>
+        <col id="1" translatable="yes">sw</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Suaíle</col>
+        <col id="1" translatable="yes">sv</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sueco</col>
+        <col id="1" translatable="yes">su</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Sundanês</col>
+        <col id="1" translatable="yes">tg</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tadjique</col>
+        <col id="1" translatable="yes">th</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tâmil</col>
+        <col id="1" translatable="yes">ta</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Tcheco</col>
+        <col id="1" translatable="yes">cs</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Telugo</col>
+        <col id="1" translatable="yes">te</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Turco</col>
+        <col id="1" translatable="yes">tr</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Ucraniano</col>
+        <col id="1" translatable="yes">uk</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Urdu</col>
+        <col id="1" translatable="yes">ur</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Uzbeque</col>
+        <col id="1" translatable="yes">uz</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Vietnamita</col>
+        <col id="1" translatable="yes">vi</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Xhosa</col>
+        <col id="1" translatable="yes">xh</col>
+      </row>
+      <row>
+        <col id="0" translatable="yes">Zulu</col>
+        <col id="1" translatable="yes">zu</col>
+      </row>
+    </data>
+  </object>
+  <object class="GtkWindow" id="janela">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="resizable">False</property>
+    <property name="window_position">center</property>
+    <property name="destroy_with_parent">True</property>
+    <signal name="destroy" handler="onQuit" swapped="no"/>
+    <child>
+      <placeholder/>
+    </child>
+    <child>
+      <object class="GtkBox">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="halign">center</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_top">10</property>
+            <property name="orientation">vertical</property>
+            <property name="spacing">8</property>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="margin_left">3</property>
+                <property name="margin_right">3</property>
+                <property name="orientation">vertical</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">bem vindo ao tradutorpy.
+este programa usa o google translate.</property>
+                    <property name="justify">center</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkBox">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">  do:  </property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">0</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBox" id="combobox1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="tooltip_text" translatable="yes">selecione uma lingua que será traduzida.</property>
+                    <property name="model">listprimary</property>
+                    <property name="active">52</property>
+                    <child>
+                      <object class="GtkCellRendererText"/>
+                      <attributes>
+                        <attribute name="text">0</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkButton" id="troca">
+                    <property name="label" translatable="yes">&lt;  &gt;</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">True</property>
+                    <property name="receives_default">True</property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkLabel">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">  para:  </property>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkComboBox" id="combobox2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="events">GDK_STRUCTURE_MASK | GDK_SCROLL_MASK</property>
+                    <property name="model">listsecundary</property>
+                    <property name="active">78</property>
+                    <child>
+                      <object class="GtkCellRendererText"/>
+                      <attributes>
+                        <attribute name="text">0</attribute>
+                      </attributes>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="expand">False</property>
+                    <property name="fill">True</property>
+                    <property name="position">4</property>
+                  </packing>
+                </child>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow" id="usuariotext">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="tooltip_text" translatable="yes">digite aqui ou selecione com o mouse o texto que queira traduzir.</property>
+            <property name="margin_top">10</property>
+            <property name="shadow_type">in</property>
+            <property name="min_content_height">100</property>
+            <child>
+              <object class="GtkTextView" id="textviewedit">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="tooltip_text" translatable="yes">Digite, cole ou selecione com o mouse o texto que deseja traduzir</property>
+                <property name="wrap_mode">word</property>
+                <property name="buffer">buffer</property>
+                <property name="monospace">True</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="homogeneous">True</property>
+            <child>
+              <object class="GtkButton" id="traduzir">
+                <property name="label" translatable="yes">traduzir</property>
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Traduzir o texto.</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkButton" id="apagar">
+                <property name="label" translatable="yes">limpar</property>
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Limpar todas as caixas.</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">2</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkScrolledWindow">
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="shadow_type">in</property>
+            <property name="min_content_height">100</property>
+            <child>
+              <object class="GtkTextView" id="textviewnoedit">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="editable">False</property>
+                <property name="wrap_mode">word</property>
+                <property name="buffer">buffer2</property>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">3</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkBox">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_bottom">14</property>
+            <property name="homogeneous">True</property>
+            <child>
+              <object class="GtkButton" id="copiar">
+                <property name="label" translatable="yes">copiar</property>
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="receives_default">True</property>
+                <property name="tooltip_text" translatable="yes">Copiar o conteúdo para a área de transferência. Aperte 'ctrl + v' para colar.</property>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">0</property>
+              </packing>
+            </child>
+            <child>
+              <object class="GtkLabel" id="status">
+                <property name="height_request">35</property>
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">status: </property>
+                <property name="justify">fill</property>
+                <property name="ellipsize">end</property>
+                <attributes>
+                  <attribute name="underline" value="True"/>
+                </attributes>
+              </object>
+              <packing>
+                <property name="expand">False</property>
+                <property name="fill">True</property>
+                <property name="position">1</property>
+              </packing>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">4</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

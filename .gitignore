@@ -102,3 +102,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# meus configs do git ignore
+Pip*
+*~
