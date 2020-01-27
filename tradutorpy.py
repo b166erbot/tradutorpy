@@ -1,5 +1,7 @@
 import gi
 import translate
+from os import chdir
+from pathlib import Path
 gi.require_version('Gtk', '3.0')
 from gi.repository import Gtk, Gdk  # noqa
 
@@ -106,7 +108,8 @@ class Janela:
 
 
 if __name__ == '__main__':
+    local_deste_arquivo = Path(__file__).parent
+    chdir(local_deste_arquivo)
     app = Janela()
     app.cache = ['pt-br', 'en']
     Gtk.main()
-
