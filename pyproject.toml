@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tradutorpy"
+version = "0.1.0"
+description = ""
+authors = ["b166erobot <bernard0freitas@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+translate = "^3.6.1"
+pygobject = "^3.46.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
